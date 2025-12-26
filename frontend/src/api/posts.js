@@ -1,4 +1,4 @@
-const API = "http://localhost:5001/posts";
+const API = "https://dev-log-0fzg.onrender.com/posts";
 
 export const fetchPosts = () =>
     fetch(API).then((res) => res.json());
